@@ -49,7 +49,7 @@ bool BoxcarSmoothData(int *pWindowBuffer, int *fsum, int Window)
     return TRUE;
 }
 
-main(int argc, char** argv)
+int main(int argc, char** argv)
 {
     int DataCount,Window, MaxWindow;
     int* pWindowBuffer = NULL;            
